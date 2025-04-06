@@ -32,7 +32,7 @@ public class BankAccount {
      * @param balance
      */
     public BankAccount(double balance) {
-        this.accountNumber = 1001;
+        this.accountNumber = accountNumber;
         this.balance = balance;
         this.transactions = new StringBuilder();
         recordTransaction("Account created with balance of " + this.balance);
